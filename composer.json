@@ -6,6 +6,9 @@
 	"keywords": ["TYPO3 CMS", "foo bar"],
 	"license": ["GPL-2.0+"],
 	"version": "3.4.0",
+	"require": {
+		"typo3/cms-core": ">=6.2.1,<8.0"
+	},
 	"support": {
         	"issues": "https://forge.typo3.org/projects/extension-pw_teaser"
     	},
