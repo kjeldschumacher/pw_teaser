@@ -1,10 +1,14 @@
 {
-	"name": "Page Teaser (with Fluid)",
-	"type": "plugin",
+	"name": "PwTeaserTeam/pw_teaser",
+	"type": "typo3-cms-extension",
 	"description": "Create powerful, dynamic page teasers with data from page properties and its content elements. Based on Extbase and Fluid Template Engine.",
 	"homepage": "http://v.ieweg.de",
+	"keywords": ["TYPO3 CMS", "foo bar"],
 	"license": ["GPL-2.0+"],
 	"version": "3.4.0",
+	"support": {
+        	"issues": "https://forge.typo3.org/projects/extension-pw_teaser"
+    	},
 	"autoload": {
 		"psr-4": {
 			"PwTeaserTeam\\PwTeaser\\": "Classes/"
